@@ -18,19 +18,19 @@ steps:
 - script: npm run test
   displayName: 'Run unit tests'
 
-- task: InstallAppleCertificate@2
-  inputs:
-    certSecureFile: AppleDeveloperCertificate.p12
-    certPwd: $(P12password)
-    keychain: 'temp'
-    deleteCert: true
-  displayName: Install Apple Certificate
+#- task: InstallAppleCertificate@2
+#  inputs:
+#    certSecureFile: AppleDeveloperCertificate.p12
+#    certPwd: $(P12password)
+#    keychain: 'temp'
+#    deleteCert: true
+#  displayName: Install Apple Certificate
 
-- script: |
-    cd ios
-    bundle install
-    fastlane build
-  displayName: 'Build iOS'
+#- script: |
+#    cd ios
+#    bundle install
+#    fastlane build
+#  displayName: 'Build iOS'
 
 - script: |
     cd android
