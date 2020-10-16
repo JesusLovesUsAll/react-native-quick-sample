@@ -26,11 +26,9 @@
     "babel-preset-react-native": "3.0.2",
     "jest": "21.0.1",
     "react-test-renderer": "16.0.0-alpha.12"
+    "lint": "eslint.js"
   },
   "jest": {
     "preset": "react-native"
-  }
-  "scripts": {
-    "lint": "eslint.js"
   }
 }
