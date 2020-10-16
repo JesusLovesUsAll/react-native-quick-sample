@@ -16,7 +16,7 @@ steps:
   displayName: 'Install lint'
 
 - script: npm install fastlane
-  displayName: 'Install lint'
+  displayName: 'Install fastlane'
 
 - script: npm run lint
   displayName: 'Run lint'
