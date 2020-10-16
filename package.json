@@ -30,4 +30,8 @@
   "jest": {
     "preset": "react-native"
   }
+  //lint
+  "scripts": {
+    "lint": "eslint.js"
+  }
 }
